@@ -1,0 +1,46 @@
+.row {
+    margin: 0;
+}
+
+.text {
+    font-size: 7vw;
+}
+
+.my-font {
+    font-size: 5vw;
+}
+
+.img_container {
+    background: url("./asserts/images/My-photo.png");
+    background-size: cover;
+    /* background-position:center; */
+    height: 12rem;
+    width: 12rem;
+}
+
+.text_container {
+    height: 92vh;
+
+}
+
+@media (max-width : 576px) {
+    .text_container {
+        height: 67vh;
+    }
+
+    .my-font {
+        margin-top: 1rem;
+        font-size: 10vw;
+    }
+}
+
+.about_img {
+    margin: 2rem;
+    /* border-radius: 50%; */
+    height: 20rem;
+    width: 20rem;
+    background-image: url("./asserts/images/Prakash_bw.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
